@@ -1,0 +1,259 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: 'open sans', 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*=====header=====*/
+
+header {
+	width: 100%;
+	height: 48px;
+	background-color: #333;
+	font-size: 15px;
+}
+
+header ul {
+	text-align: center;
+}
+
+header li {
+	display: inline-block;
+	padding-top: 14px;
+	margin: 0 1.8%;
+}
+
+header a {
+	text-decoration: none;
+	margin: 0 auto;
+	color: #ccc;
+	letter-spacing: .01rem;
+}
+
+header a:hover {
+	color: #999;
+}
+
+/*=====Main content=====*/
+
+section {
+	width: 100%;
+	min-height: 700px;
+}
+
+#central-image {
+	background: url("images/iphone.jpg") 26% 10px no-repeat;
+}
+
+#central-image-links {
+	display: block;
+	position: relative;
+	left: 48%;
+	top: 300px;
+	width: 500px;
+	height: 200px;
+	color: #333;
+	text-align: center;
+}
+
+#central-image-links h1 {
+	background: url("images/iphone-logo.png") no-repeat;
+	background-size: 340px 65px;
+	height: 100px;
+	position: relative;
+	left: 15%;
+	top: 15px;
+}
+
+#central-image-links h2 {
+	font-size: 36px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+
+#central-image-links li {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+#central-image-links a {
+	text-decoration: none;
+	color: #08c
+}
+
+#central-image-links a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+/*=====Four smaller images=====*/
+
+#four-images {
+	width: 100%;
+}
+
+#four-images li {
+	display: inline-block;
+}
+
+#image1 {
+	width: 24.5%;
+	height: 300px;
+	background: url("images/watch.jpg") no-repeat;
+}
+
+#image2 {
+	width: 24.5%;
+	height: 300px;
+	background: url("images/ipad.jpg") no-repeat;
+}
+
+#image3 {
+	width: 24.5%;
+	height: 300px;
+	background: url("images/accessories.jpg") no-repeat;
+}
+
+#image4 {
+	width: 24.5%;
+	height: 300px;
+	background: url("images/customer-letter.jpg") no-repeat;
+}
+
+/*=====product recall notice=====*/
+
+#recall {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#recall a {
+	text-decoration: none;
+	color: #08c;
+}
+
+#recall a:hover {
+	text-decoration: underline;
+}
+
+/*=====footer=====*/
+
+#links-container {
+	width: 100%;
+	min-height: 360px;
+	background-color: #f2f2f2;
+
+}
+
+#site-nav-links {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	min-height: 200px;
+	padding-top: 30px;
+}
+
+#site-nav-links ul {
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+
+#site-nav-links li {
+	line-height: 1.4rem;
+	font-size: 11px;
+}
+
+.list-divider {
+	padding-bottom: 20px;
+}
+
+.nav-link-header {
+	color: #222;
+}
+
+#site-nav-links a {
+	text-decoration: none;
+	color: #666;
+}
+
+#site-nav-links a:hover {
+	text-decoration: underline;
+}
+
+/*=====Footer paragraph=====*/
+
+#footer-para {
+	float: left;
+	clear: both;
+	color: #999;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	padding: 40px 0 10px 0;
+	width: 100%;
+}
+
+#footer-para a {
+	color: #08c;
+}
+
+#footer-para a:hover {
+	color: #666;
+}
+
+/*=====footer bottom=====*/
+
+footer {
+	width: 100%;
+	min-height: 30px;
+	background-color: #f2f2f2;
+	vertical-align: top;
+}
+
+#footer-bottom {
+	width: 60%;
+	margin: 0 auto;
+}
+
+/*=====footer left=====*/
+
+#footer-left li {
+	display: inline-block;
+	color: #999;
+	font-size: 12px;
+}
+
+#footer-left a {
+	text-decoration: none;
+	color: #666;
+	padding: 0 10px;
+}
+
+#footer-left a:hover {
+	text-decoration: underline;
+}
+
+/*=====footer right=====*/
+
+#footer-right {
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer-right a {
+	color: #666;
+	vertical-align: top;
+}
+
+#footer-right a:hover {
+	text-decoration: underline;
+}
+
+
+
